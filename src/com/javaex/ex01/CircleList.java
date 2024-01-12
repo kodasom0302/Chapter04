@@ -9,7 +9,7 @@ public class CircleList {
 	
 	public CircleList() {
 		cArray=new Circle[3];
-		cArray=0;
+		crtPos=0;
 	}
 	
 	public void add(Circle c) {

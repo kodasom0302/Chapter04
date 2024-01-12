@@ -1,5 +1,7 @@
 package com.javaex.ex01;
 
+import java.util.Arrays;
+
 public class PointList {
 	
 	//필드
@@ -29,6 +31,11 @@ public class PointList {
 	}
 	public Point get(int index) {
 		return pArray[index];	//index방 안에 있는 Point 주소
+	}
+
+	@Override
+	public String toString() {
+		return "PointList [pArray=" + Arrays.toString(pArray) + ", crtPos=" + crtPos + "]";
 	}
 
 }

@@ -38,9 +38,14 @@ public class MyListApp {
 		System.out.println(pList.toString());
 		
 		//원 관리
-		PointList cList=new PointList();
+		CircleList cList=new CircleList();
 		Circle c01=new Circle(5);
+		Circle c02=new Circle(10);
+		
 		cList.add(c01);
+		cList.add(c02);
+		
+		System.out.println(cList.toString());
 	}
 
 }
