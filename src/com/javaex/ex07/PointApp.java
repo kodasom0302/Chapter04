@@ -21,7 +21,12 @@ public class PointApp {
 		
 		Point p04=new Point(3,6);
 		pSet.add(p04);
-		System.out.println(pSet.toString());
+		//System.out.println(pSet.toString());
+		/*
+		for (Point p:pSet) {
+			System.out.println(p.hashCode());
+		}
+		*/
 
 	}
 
