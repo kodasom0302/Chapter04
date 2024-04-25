@@ -1,5 +1,7 @@
 package com.javaex.ex08;
 
+import java.util.Objects;
+
 public class Point {
 	
 	private int x;
